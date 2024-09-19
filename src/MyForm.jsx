@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 const MyForm = () => {
+  const [name, setName] = useState("");
+
   const handleSubmit = (event) => {
     event.preventDefault();
     // handle form submission
-    console.log("Form submitted");
+    console.log("Form submitted with name:", name);
   };
 
   const handleChange = (event) => {
-    console.log(event.target.value);
+    setName(event.target.value);
   };
 
   return (
@@ -17,6 +19,7 @@ const MyForm = () => {
         <div>
           <input
             type="text"
+            value={name}
             onChange={handleChange}
             placeholder="Enter Your Name"
           />
