@@ -1,5 +1,6 @@
 import "./App.css";
 import Greetings from "./Greetings";
+import MyForm from "./MyForm";
 import Names from "./Names";
 import WElcome from "./WElcome";
 
@@ -14,6 +15,7 @@ function App() {
       <Names></Names>
       <Greetings></Greetings>
       <button onClick={buttonClick}>Click me</button>
+      <MyForm></MyForm>
     </div>
   );
 }
