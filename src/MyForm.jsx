@@ -5,7 +5,7 @@ const MyForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // handle form submission
+
     console.log("Form submitted with name:", name);
   };
 
