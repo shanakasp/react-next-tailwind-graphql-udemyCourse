@@ -1,17 +1,21 @@
 import React from "react";
 
-const ListTask = (props) => {
+const ListTask = ({ tasks, deleteTask, toggleTaskCompletion }) => {
   return (
     <div>
       <ul>
-        {props.tasks.length === 0 ? (
+        {tasks.length === 0 ? (
           <p>No tasks</p>
         ) : (
-          props.tasks.map((task, index) => (
+          tasks.map((task, index) => (
             <li key={index}>
-              <input type="checkbox" checked={task.completed} readOnly />
+              <input
+                type="checkbox"
+                checked={task.completed}
+                onChange={() => toggleTaskCompletion(index)}
+              />
               {task.text}
-              <button>Delete</button>
+              <button onClick={() => deleteTask(index)}>Delete</button>
             </li>
           ))
         )}
