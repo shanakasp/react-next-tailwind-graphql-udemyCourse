@@ -1,11 +1,11 @@
 import React from "react";
 import ChildComponent from "./ChildComponent";
 
-const ParentComponent = (props) => {
+const ParentComponent = () => {
   return (
     <div>
-      <h1>Parent Component</h1>
-      <ChildComponent user={props.user}></ChildComponent>
+      <h2>Parent Component</h2>
+      <ChildComponent />
     </div>
   );
 };
