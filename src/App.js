@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from "./Card";
 import Greetings from "./Greetings";
+import LoginForm from "./LoginForm";
 import MyForm from "./MyForm";
 import Names from "./Names";
 import WElcome from "./WElcome";
@@ -22,6 +23,8 @@ function App() {
         bio=" Hello HEllo this is bio"
         image="https://www.supercars.net/blog/wp-content/uploads/2022/09/Best-New-Sports-and-Performance-Cars-2022_Chevrolet_Corvette.jpg"
       ></Card>
+
+      <LoginForm></LoginForm>
     </div>
   );
 }

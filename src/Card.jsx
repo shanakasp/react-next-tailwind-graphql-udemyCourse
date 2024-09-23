@@ -1,3 +1,4 @@
+import PropType from "prop-types";
 import React from "react";
 
 const Card = (props) => {
@@ -24,4 +25,9 @@ const Card = (props) => {
   );
 };
 
+Card.PropType = {
+  image: PropType.string.isRequired,
+  name: PropType.string.isRequired,
+  bio: PropType.string.isRequired,
+};
 export default Card;
