@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Counter from "./Counter";
 import ParentComponent from "./ParentComponent";
 import { userContext } from "./UserContext";
 
@@ -12,6 +13,8 @@ function App() {
       <userContext.Provider value={user}>
         <ParentComponent />
       </userContext.Provider>
+
+      <Counter />
     </div>
   );
 }
