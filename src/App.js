@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
 import Counter from "./Counter";
+import CounterReducer from "./CounterReducer";
 import ParentComponent from "./ParentComponent";
+import UseRef from "./UseRef";
 import { userContext } from "./UserContext";
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       </userContext.Provider>
 
       <Counter />
+      <CounterReducer></CounterReducer>
+      <UseRef />
     </div>
   );
 }
