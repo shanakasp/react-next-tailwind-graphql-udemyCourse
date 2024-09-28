@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Udemy Course SOurce Code for React, Tailwind, Next
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
