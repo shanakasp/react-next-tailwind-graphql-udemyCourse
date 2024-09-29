@@ -1,4 +1,6 @@
-# Udemy Course SOurce Code for React, Tailwind, Next
+# Udemy Course Source Code for React, Tailwind, Next
+
+https://www.udemy.com/course/the-ultimate-react-course-become-a-pro-in-no-time/learn/quiz/6529529#overview
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
